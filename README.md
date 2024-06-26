@@ -6,24 +6,16 @@ This repository contains a collection of Python scripts designed to calculate va
 
 The repository includes scripts for the following technical indicators:
 
-- **ADX (Average Directional Index)**: Measures the strength of a trend.
-- **ATR (Average True Range)**: Provides insights into market volatility.
-- **Bollinger Bands**: Used to determine overbought and oversold conditions.
-- **MACD (Moving Average Convergence Divergence)**: Identifies changes in the strength, direction, momentum, and duration of a trend in a stock's price.
-- **Renko Charts**: Focuses on price changes of a predetermined magnitude, filtering out small price movements.
-- **RSI (Relative Strength Index)**: Measures the speed and change of price movements.
-
-
 - **ADX (Average Directional Index)**: Measures the strength of a trend irrespective of its direction. Values above 25 often indicate a strong trend, while values below 20 suggest a weak trend. This indicator is useful for determining whether a market is likely to continue in its current trend or not.
 
 The ADX is derived from two other indicators, also developed by Welles Wilder, called the Positive Directional Indicator (+DI) and Negative Directional Indicator (-DI). The ADX is the smoothed moving average of the absolute value of "+DI minus -DI" divided by "+DI plus -DI", all multiplied by 100. It is designed to measure the strength of a trend without regard to its direction.
 
 - **ATR (Average True Range)**: Provides insights into market volatility by measuring the degree of price volatility from high to low for each period, adjusted for gaps in price movement. Higher ATR values indicate increased volatility, which can be crucial for adjusting trading strategies or positioning stop-loss orders.
 
-The ATR is calculated by taking the average of true ranges over a specified period. A true range is defined as the greatest of the following: 
--- The difference between the current high and the current low.
--- The absolute value of the current high less the previous close.
--- The absolute value of the current low less the previous close.
+  The ATR is calculated by taking the average of true ranges over a specified period. A true range is defined as the greatest of the following: 
+  - The difference between the current high and the current low.
+  - The absolute value of the current high less the previous close.
+  - The absolute value of the current low less the previous close.
 
 - **Bollinger Bands**: Consists of a middle band being a moving average, with two outer bands calculated based on standard deviations from the middle band. This indicator is used to determine overbought and oversold conditions in the market. Prices near the upper band suggest that an asset may be overbought, while prices near the lower band can indicate an asset is oversold.
 
