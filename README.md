@@ -1,0 +1,1 @@
+# calculate-techical-indicator
